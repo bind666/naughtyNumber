@@ -1,0 +1,1 @@
+console.log([..."sachindevloper45"].reverse().join(""))

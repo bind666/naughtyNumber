@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naughty Numbers</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/utility.css" />
+</head>
+
+<body>
+  <nav>
+    <h1 class="logo">NaughtyNumbers</h1>
+  </nav>
+
+  <div id="wrapper" class="flex">
+    <div class="calculation-box border-2 border-r-5">
+      <div class="inp-box a">
+        Enter a number
+        <br />
+        <input type="text" id="input-data" />
+      </div>
+      <div class="op-papa">
+        <div class="option-1-box">
+          From Base
+          <br />
+          <select name="option1" id="option1">
+            <option value="2">Binary</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">octal</option>
+            <option value="9">9 </option>
+            <option value="10">decimal</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">hexa-decimal</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="35">35</option>
+            <option value="36">36</option>
+          </select>
+        </div>
+        <div class="option-2-box">
+          To Base
+          <br />
+          <select name="option1" id="option2">
+            <option value="2">Binary</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">octal</option>
+            <option value="9">9 </option>
+            <option value="10">decimal</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">hexa-decimal</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option value="35">35</option>
+            <option value="36">36</option>
+          </select>
+        </div>
+      </div>
+      <div class="btn-box">
+        <button id="convert" class="cursor-pointer">= Convert</button>
+        <button id="reset" class="cursor-pointer">x&nbsp; reset</button>
+        <button id="swap" class="cursor-pointer">&nbsp; swap &nbsp;</button>
+      </div>
+      <div class="result-box" id="result-bx">
+        <textarea name="result" id="result" cols="25" rows="3" readonly></textarea>
+      </div>
+      <div class="copy-box">
+        <button id="copy" class="cursor-pointer">Copy</button>
+      </div>
+    </div>
+    <div class="visualise-box border-2 border-r-5" style="overflow-y:auto;">
+      <table id="table-data" border="1">
+        <thead>
+          <tr>
+            <th class="divtb">Division</th>
+            <th class="divtb">Quotient</th>
+            <th class="divtb">
+              <p>Remainder</p>
+              (Digit)
+            </th>
+            <th class="divtb">Digit #</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </div>
+
+
+  <script src="./scripts/app.js"></script>
+  <!-- <script src="./scripts/practice.js"></script> -->
+  <!-- <script src="./scripts/practice2.js"></script> -->
+  <!-- <script src="./scripts/practice3.js"></script> -->
+  <!-- <script src="./scripts/del.js"></script> -->
+</body>
+
+</html>
